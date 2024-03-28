@@ -1,0 +1,45 @@
+@font-face {
+  font-family: poetry;
+  src: url("/Jameel.ttf");
+}
+.parent {
+  width: 400px;
+  padding: 1em;
+  box-shadow: 0px 0px 10px rgba(0, 195, 255, 0.432);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(6, 0, 37);
+}
+.count {
+  color: white;
+  text-align: right;
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+}
+.poetryContent {
+  text-align: center;
+  font-family: poetry;
+  font-size: 1.6rem;
+  color: transparent;
+  background: linear-gradient(
+    122deg,
+    #f17b85,
+    #f79393 15%,
+    #fee4a5 45%,
+    #9ae8b0 65%,
+    #5ba5d0 90%,
+    #9078d0
+  );
+  background-clip: text;
+}
+.iconsContainer {
+  display: flex;
+  gap: 10px;
+  font-size: 1.7rem;
+  margin-top: 1em;
+  color: white;
+}
+.icons:hover {
+  cursor: pointer;
+}
