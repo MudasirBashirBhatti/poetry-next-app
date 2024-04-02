@@ -6,3 +6,18 @@
 body {
   background-color: rgb(6, 12, 31);
 }
+.parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.contentContainer {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  background: rgb(13 15 38);
+  padding: 3em;
+}
+.categoryContainer {
+  flex: 0.3;
+}
